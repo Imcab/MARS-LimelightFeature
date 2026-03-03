@@ -1,9 +1,9 @@
 {
-  "featureId": "MiPrimerFeature",
-  "name": "Nombre descriptivo del Feature",
+  "featureId": "MARSLimelightFeature",
+  "name": "Limelight Vision Node Feature",
   "version": "1.0.0",
-  "groupId": "com.miequipo.mifeature",
-  "author": "Nombre de mi Equipo",
-  "description": "Una breve descripción de lo que hace este módulo para MARS.",
+  "groupId": "com.stzteam.features.limelight",
+  "author": "STZ-Robotics",
+  "description": "A limelight node implementation for mars frameworks",
   "marsCoreRequired": ">=1.6.0"
 }
