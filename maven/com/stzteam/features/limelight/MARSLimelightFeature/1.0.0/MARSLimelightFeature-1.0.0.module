@@ -28,10 +28,10 @@
           "name": "MARSLimelightFeature-1.0.0.jar",
           "url": "MARSLimelightFeature-1.0.0.jar",
           "size": 28485,
-          "sha512": "552a6a62dcc703831c00e5363476f1a8bf405d96033494e83ae5474a92781a81362ef26f0c9b80e57a60e5c240b970add271d008b198528526cf452534a6dc96",
-          "sha256": "6737b0e2644a2476b3921324da2620cdcd4d5b8db2be9f0c39e9d9f4d908dedf",
-          "sha1": "dfa1aa62cb30822306dd369b03af0269d27fe381",
-          "md5": "07357d3af61f0e84eada21aaf93825cb"
+          "sha512": "5d856bd2aff5c68009948ff55bcc1b3b342cce16c104fb2f89f3a63d392fdd646a1e003247c663f24cd87e5a59ec6c7e00d21d2c73d5d47acc46bf71356e329f",
+          "sha256": "9f364fb3dc992aa72bd3c1b3548ba6593590ce3493350beeb80340146b89d990",
+          "sha1": "4b159dfc474883f0d79cd152c47bfcebaeb1fbd7",
+          "md5": "679f08e8044fa3f77af841630f59a76a"
         }
       ]
     },
@@ -191,10 +191,10 @@
           "name": "MARSLimelightFeature-1.0.0.jar",
           "url": "MARSLimelightFeature-1.0.0.jar",
           "size": 28485,
-          "sha512": "552a6a62dcc703831c00e5363476f1a8bf405d96033494e83ae5474a92781a81362ef26f0c9b80e57a60e5c240b970add271d008b198528526cf452534a6dc96",
-          "sha256": "6737b0e2644a2476b3921324da2620cdcd4d5b8db2be9f0c39e9d9f4d908dedf",
-          "sha1": "dfa1aa62cb30822306dd369b03af0269d27fe381",
-          "md5": "07357d3af61f0e84eada21aaf93825cb"
+          "sha512": "5d856bd2aff5c68009948ff55bcc1b3b342cce16c104fb2f89f3a63d392fdd646a1e003247c663f24cd87e5a59ec6c7e00d21d2c73d5d47acc46bf71356e329f",
+          "sha256": "9f364fb3dc992aa72bd3c1b3548ba6593590ce3493350beeb80340146b89d990",
+          "sha1": "4b159dfc474883f0d79cd152c47bfcebaeb1fbd7",
+          "md5": "679f08e8044fa3f77af841630f59a76a"
         }
       ]
     }
