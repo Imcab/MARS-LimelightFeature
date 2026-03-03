@@ -19,11 +19,9 @@ java {
 
 repositories {
     mavenCentral()
-    // Repositorio de ForgeMini
     maven {
         url = uri("https://Imcab.github.io/FORGEmini/maven/")
     }
-    // ¡NUEVO! Repositorio oficial de MARS (STZ-Robotics)
     maven {
         url = uri("https://STZ-Robotics.github.io/Mars/maven/")
     }
@@ -36,7 +34,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.1'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-    // --- EL NÚCLEO DEL ECOSISTEMA STZ ---
     implementation 'com.stzteam.forgemini:ForgeMini:1.1.1'
     implementation 'com.stzteam.mars:Mars:1.6.0' 
 }
@@ -46,7 +43,6 @@ publishing {
         mavenJava(MavenPublication) {
             from components.java
             groupId = group
-            // El nombre del archivo compilado será el featureId
             artifactId = parsedJson.featureId 
             version = version
         }
@@ -64,10 +60,8 @@ javadoc {
     options.addStringOption('Xdoclint:none', '-quiet')
 }
 
-// 3. Tarea mágica adaptada para cualquier creador
 task generateFeatureConstants {
     doLast {
-        // Convertimos "com.equipo.vision" a "com/equipo/vision" para la ruta de carpetas
         def packagePath = parsedJson.groupId.replace('.', '/')
         def srcDir = file("$projectDir/src/main/java/${packagePath}/generated")
         srcDir.mkdirs()
