@@ -1,0 +1,9 @@
+{
+  "featureId": "MiPrimerFeature",
+  "name": "Nombre descriptivo del Feature",
+  "version": "1.0.0",
+  "groupId": "com.miequipo.mifeature",
+  "author": "Nombre de mi Equipo",
+  "description": "Una breve descripción de lo que hace este módulo para MARS.",
+  "marsCoreRequired": ">=1.6.0"
+}
